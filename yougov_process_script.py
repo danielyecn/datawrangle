@@ -50,9 +50,11 @@ yougov.rename(columns={'col1':'index',
                     'col16':'formercustomer'}, inplace=True)
 
 #save it as csv, should change the name
+
 yougov.to_csv('Downloads/yougov_eclass_6.csv',header=True,index=False)
 
 
 #test
 #test
 #test
+
